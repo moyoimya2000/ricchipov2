@@ -1,0 +1,84 @@
+@font-face { font-family: "Cooljazz"; src: url("Cooljazz.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face { font-family: "ArabiaCyr"; src: url("ArabiaCyr.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face { font-family: "KarnacOne"; src: url("KarnacOne.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face { font-family: "Modestina"; src: url("Modestina.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face { font-family: "Rosalinda"; src: url("Rosalinda.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face { font-family: "ModernoDcFr"; src: url("ModernoDcFr.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face { font-family: "Busorama"; src: url("Busorama.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face { font-family: "Brushie"; src: url("Brushie.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face { font-family: "Exo2Light"; src: url("Exo2Light.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face { font-family: "AuXDotBitCCond"; src: url("AuXDotBitCCond.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face { font-family: "SecessionLight"; src: url("SecessionLight.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+
+* { margin: 0; padding: 0; 
+box-sizing: border-box;
+overflow: hidden;
+}
+body { min-height: 100vh; }
+#particles-js{ width: 120%;
+height:100vh; 
+position: absolute; 
+z-index: -3;
+background-color: rgb(1, 30, 8);
+}    
+#zapoln{ color: rgb(193, 247, 170); font-family: "Cooljazz"; }
+p{font-size: 26px;
+text-indent: 1.5rem;    
+}
+.container-fluid{ display: block;
+padding-top: .3rem;
+}
+.container-fluid .main-video{ 
+display: none;
+}
+.container-fluid .main-video video{
+width: 100%;
+}    
+.container-fluid .video-list .vid video{
+margin-right: 3px;
+border: 1px dashed #b90d0d;
+border-radius: 15px;
+width: 90px;
+}
+.container-fluid .video-list .vid:hover{
+color: #eee; cursor: pointer;
+}
+.container-fluid .video-list .vid:active{
+color: #2980b9;
+}
+a{text-decoration: none;}
+.btn{color: white; margin-bottom: 10px;}
+.btn:hover{color: greenyellow;}
+.hide{display: none;}
+
+.mx-auto{ font-family: "ModernoDcFr";
+color: wheat;
+position: absolute; 
+bottom: 0;
+align-items: center;
+justify-content: center;
+align-self: stretch;
+}
+.barents{
+color: #a1d3f7;
+font-size: 28px;
+}
+#myNav1{
+font-family: "KarnacOne";
+}
+#myNav2{
+font-family: "Rosalinda";
+}
+#myNav3{
+font-family: "Busorama";
+}
+#myNav4{
+font-family: "Exo2Light";
+}
+*{
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
