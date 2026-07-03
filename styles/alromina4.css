@@ -76,6 +76,26 @@ font-family: "Busorama";
 #myNav4{
 font-family: "Exo2Light";
 }
+
+.podps{
+font-size: 22px;
+font-family: 'Modestina';
+letter-spacing: 1px;
+animation: 25s in-out infinite;
+}
+@keyframes in-out {
+    0% { color: lawngreen; letter-spacing: 1px; }
+    10% { color: rgb(122, 148, 243) }
+    20% { color: lightblue }
+    30% { color: orangered }
+    40% { color: lightgray }
+    50% { color: blue; letter-spacing: 6px; }
+    60% { color: lightgray }
+    70% { color: yellow }
+    80% { color: lightblue }
+    90% { color: orange }
+    100% { color: lawngreen; letter-spacing: 1px; }
+}
 *{
 -webkit-user-select: none;
 -khtml-user-select: none;
